@@ -2,80 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9305bb1-65e8-4452-8c31-5416073242d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/AbstractHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/AbstractRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/FireDetectorRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/FireHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/LowFuelDetectorRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/LowFuelHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/LowFuelRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/command/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/command/InstrumentPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/command/LandingGear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/command/LandingGearDownCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/command/LandingGearUpCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/BarellRoll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/Glide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/ShowOff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/Splits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/iterator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/iterator/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/iterator/ProfileData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/iterator/ProfileIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/mediator/Aircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/mediator/Boing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/mediator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/mediator/ControlTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/memento/BlackBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/memento/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/memento/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/observer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/observer/ControlTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/observer/F16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/state/F16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/state/LandingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/state/ParkedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/state/PilotActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/state/TaxiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/strategy/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/strategy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/strategy/ISort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/strategy/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/template/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/template/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/template/DefaultSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/template/ISort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/template/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/visitor/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/visitor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/visitor/ExportVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/visitor/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/visitor/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/AVICompressionCodec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/AudioMixer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/BitrateReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/Codec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/CodecFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/MPEG4CompressionCodec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/VideoConversionFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/VideoFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/proxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/proxy/ThirdPartyVideoLib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/proxy/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/proxy/YoutubeCacheProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/proxy/YoutubeDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/proxy/YoutubeLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/creational/singleton/EagerInitializedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/creational/singleton/LazyInitializationSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/creational/singleton/StaticBlockSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/creational/singleton/ThreadSafeSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.designpatterns.creational.singleton" />
       <recent name="com.company.designpatterns.behavioral.template" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -228,12 +159,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613202855161</updated>
-      <workItem from="1613202858605" duration="28742000" />
+      <workItem from="1613202858605" duration="30012000" />
     </task>
+    <task id="LOCAL-00001" summary="Added creational and structural Patterns">
+      <created>1613319920026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613319920026</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added creational and structural Patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added creational and structural Patterns" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="367" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613205817839">
@@ -245,6 +188,10 @@
     </state>
     <state x="709" y="258" key="#com.intellij.ide.util.MemberChooser/0.-1055.1920.1055/-1080.-775.1080.1895/0.0.1792.1059@0.0.1792.1059" timestamp="1613212400481" />
     <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613305217297" />
+    <state x="485" y="159" key="CommitChangelistDialog2" timestamp="1613319919773">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="485" y="159" key="CommitChangelistDialog2/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319919773" />
     <state width="1750" height="382" key="GridCell.Tab.0.bottom" timestamp="1613319873701">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -289,6 +236,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="405" y="196" key="SettingsEditor/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613206117830" />
+    <state x="496" y="297" key="Vcs.Push.Dialog.v2" timestamp="1613319922288">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="297" key="Vcs.Push.Dialog.v2/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319922288" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1613301091608">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
