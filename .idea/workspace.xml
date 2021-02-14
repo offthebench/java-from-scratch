@@ -2,12 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9305bb1-65e8-4452-8c31-5416073242d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/flyweight/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/flyweight/Forest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/flyweight/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/flyweight/TreeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/flyweight/TreeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/AbstractHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/AbstractRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/FireDetectorRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/FireHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/LowFuelDetectorRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/LowFuelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/chainofresponsibility/LowFuelRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/command/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/command/InstrumentPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/command/LandingGear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/command/LandingGearDownCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/command/LandingGearUpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/BarellRoll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/Glide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/ShowOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/interprator/Splits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/iterator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/iterator/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/iterator/ProfileData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/iterator/ProfileIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/mediator/Aircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/mediator/Boing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/mediator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/mediator/ControlTower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/memento/BlackBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/memento/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/memento/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/observer/ControlTower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/observer/F16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/state/F16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/state/LandingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/state/ParkedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/state/PilotActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/state/TaxiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/strategy/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/strategy/ISort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/strategy/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/template/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/template/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/template/DefaultSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/template/ISort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/template/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/visitor/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/visitor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/visitor/ExportVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/visitor/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/behavioral/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/AVICompressionCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/AudioMixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/BitrateReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/CodecFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/MPEG4CompressionCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/VideoConversionFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade/VideoFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/proxy/ThirdPartyVideoLib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/proxy/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/proxy/YoutubeCacheProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/proxy/YoutubeDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/proxy/YoutubeLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,32 +112,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.designpatterns.behavioral.template" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.company.designpatterns.structural.flyweight" />
-      <recent name="com.company.designpatterns.structural.adapter" />
-      <recent name="com.company.designpatterns.creational.builder" />
+      <recent name="com.company.designpatterns.behavioral.visitor" />
+      <recent name="com.company.designpatterns.behavioral.iterator" />
+      <recent name="com.company.designpatterns.behavioral.interprator" />
+      <recent name="com.company.designpatterns.behavioral.command" />
+      <recent name="com.company.designpatterns.structural.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
+  <component name="RunManager" selected="Application.Client (1)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.structural.compositePartTwo.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.behavioral.visitor.Client" />
       <module name="Design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.designpatterns.structural.compositePartTwo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.structural.decorator.Client" />
-      <module name="Design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.designpatterns.structural.decorator.*" />
+          <option name="PATTERN" value="com.company.designpatterns.behavioral.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,11 +138,24 @@
       </method>
     </configuration>
     <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.structural.flyweight.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.behavioral.observer.Client" />
       <module name="Design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.designpatterns.structural.flyweight.*" />
+          <option name="PATTERN" value="com.company.designpatterns.behavioral.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.behavioral.template.Client" />
+      <module name="Design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.designpatterns.behavioral.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,11 +164,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.structural.bridge.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.behavioral.strategy.Client" />
       <module name="Design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.designpatterns.structural.bridge.*" />
+          <option name="PATTERN" value="com.company.designpatterns.behavioral.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,29 +176,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="TaxiService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.behavioral.state.TaxiService" />
       <module name="Design-patterns" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.designpatterns.behavioral.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Client (1)" />
-      <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
+      <item itemvalue="Application.TaxiService" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (4)" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client (3)" />
-        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.TaxiService" />
+        <item itemvalue="Application.Client (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +228,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613202855161</updated>
-      <workItem from="1613202858605" duration="14120000" />
+      <workItem from="1613202858605" duration="28742000" />
     </task>
     <servers />
   </component>
@@ -163,39 +240,59 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="598" y="367" key="#com.intellij.fileTypes.FileTypeChooser/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613205817839" />
-    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1613286717458">
+    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1613305217297">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="709" y="258" key="#com.intellij.ide.util.MemberChooser/0.-1055.1920.1055/-1080.-775.1080.1895/0.0.1792.1059@0.0.1792.1059" timestamp="1613212400481" />
-    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613286717458" />
-    <state width="1750" height="376" key="GridCell.Tab.0.bottom" timestamp="1613288418007">
+    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613305217297" />
+    <state width="1750" height="382" key="GridCell.Tab.0.bottom" timestamp="1613319873701">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="310" key="GridCell.Tab.0.bottom/0.-1055.1920.1055/-1080.-775.1080.1895/0.0.1792.1059@0.0.1792.1059" timestamp="1613213394345" />
-    <state width="1750" height="376" key="GridCell.Tab.0.bottom/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613288418007" />
-    <state width="1750" height="376" key="GridCell.Tab.0.center" timestamp="1613288418006">
+    <state width="1750" height="382" key="GridCell.Tab.0.bottom/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873701" />
+    <state width="1750" height="382" key="GridCell.Tab.0.center" timestamp="1613319873699">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="310" key="GridCell.Tab.0.center/0.-1055.1920.1055/-1080.-775.1080.1895/0.0.1792.1059@0.0.1792.1059" timestamp="1613213394343" />
-    <state width="1750" height="376" key="GridCell.Tab.0.center/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613288418006" />
-    <state width="1750" height="376" key="GridCell.Tab.0.left" timestamp="1613288418004">
+    <state width="1750" height="382" key="GridCell.Tab.0.center/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873699" />
+    <state width="1750" height="382" key="GridCell.Tab.0.left" timestamp="1613319873698">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="310" key="GridCell.Tab.0.left/0.-1055.1920.1055/-1080.-775.1080.1895/0.0.1792.1059@0.0.1792.1059" timestamp="1613213394341" />
-    <state width="1750" height="376" key="GridCell.Tab.0.left/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613288418004" />
-    <state width="1750" height="376" key="GridCell.Tab.0.right" timestamp="1613288418006">
+    <state width="1750" height="382" key="GridCell.Tab.0.left/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873698" />
+    <state width="1750" height="382" key="GridCell.Tab.0.right" timestamp="1613319873700">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="310" key="GridCell.Tab.0.right/0.-1055.1920.1055/-1080.-775.1080.1895/0.0.1792.1059@0.0.1792.1059" timestamp="1613213394344" />
-    <state width="1750" height="376" key="GridCell.Tab.0.right/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613288418006" />
+    <state width="1750" height="382" key="GridCell.Tab.0.right/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873700" />
+    <state width="1750" height="382" key="GridCell.Tab.1.bottom" timestamp="1613319873703">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="382" key="GridCell.Tab.1.bottom/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873703" />
+    <state width="1750" height="382" key="GridCell.Tab.1.center" timestamp="1613319873702">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="382" key="GridCell.Tab.1.center/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873702" />
+    <state width="1750" height="382" key="GridCell.Tab.1.left" timestamp="1613319873702">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="382" key="GridCell.Tab.1.left/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873702" />
+    <state width="1750" height="382" key="GridCell.Tab.1.right" timestamp="1613319873703">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="382" key="GridCell.Tab.1.right/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873703" />
+    <state x="690" y="275" key="RollbackChangesDialog" timestamp="1613295101577">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="690" y="275" key="RollbackChangesDialog/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613295101577" />
     <state x="405" y="196" key="SettingsEditor" timestamp="1613206117830">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="405" y="196" key="SettingsEditor/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613206117830" />
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1613216215412">
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1613301091608">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613216215412" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613301091608" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -204,6 +301,21 @@
           <url>file://$PROJECT_DIR$/src/com/company/designpatterns/creational/abstractfactory/Button.java</url>
           <line>2</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/designpatterns/behavioral/iterator/ProfileIterator.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/designpatterns/behavioral/iterator/ProfileIterator.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/designpatterns/behavioral/iterator/ProfileData.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
