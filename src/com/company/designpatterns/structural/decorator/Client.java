@@ -4,7 +4,6 @@ public class Client {
 
     public static void main(String[] args) {
         String todaysClass = "Today We learned about Design Patterns in Java, and maybe understood too!";
-
         DataSourceDecorator encoded = new EncryptionDecorator(new FileDataResource("out/OutPutDemo.txt"));
 
         encoded.writeData(todaysClass);

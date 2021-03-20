@@ -16,11 +16,11 @@ public class Client {
         SquarePegAdapter largePegAdapter = new SquarePegAdapter(largeSquarePeg);
 
         if (hole.fits(smallPegAdapter)) {
-            System.out.println("Round square fits in round hole");
+            System.out.println("Square fits in round hole");
         }
 
         if (!hole.fits(largePegAdapter)) {
-            System.out.println("Round square does not fits in round hole");
+            System.out.println("Square does not fits in round hole");
         }
 
     }

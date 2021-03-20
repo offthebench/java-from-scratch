@@ -9,8 +9,11 @@ public class Client {
 
         headDepartment.addDepartment(sales);
         headDepartment.addDepartment(tech);
+        headDepartment.printDepartmentName();
 
-        headDepartment.removeDepartment(sales);
+        headDepartment.removeDepartment(tech);
+
+        System.out.printf("After removal \n");
 
         headDepartment.printDepartmentName();
     }

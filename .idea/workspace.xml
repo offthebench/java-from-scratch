@@ -2,11 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9305bb1-65e8-4452-8c31-5416073242d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/creational/singleton/EagerInitializedSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/creational/singleton/LazyInitializationSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/creational/singleton/StaticBlockSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/creational/singleton/ThreadSafeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade2/CapitalizeName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade2/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/facade2/UserNameFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/CheckBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/CheckBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/GUIFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/GUIFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/MacOSFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/MacOSFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/MacOsButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/MacOsButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/MacOsCheckBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/MacOsCheckBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/WindowsButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/WindowsButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/WindowsCheckBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/WindowsCheckBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/WindowsFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/WindowsFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/CarBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/CarBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/CarManual.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/CarManual.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/CarManualBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/CarManualBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/CarType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/CarType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/Director.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/Engine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/Dialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/Dialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/HtmlButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/HtmlButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/HtmlDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/HtmlDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/MacButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/MacButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/MacDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/MacDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/WindowDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/WindowDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/WindowRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/WindowRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/WindowsButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/WindowsButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/prototype/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/prototype/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/prototype/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/prototype/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/prototype/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/prototype/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/prototype/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/prototype/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/RoundHole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/RoundHole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/RoundPeg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/RoundPeg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/SquarePeg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/SquarePeg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/SquarePegAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/SquarePegAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/AdvancedRemote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/AdvancedRemote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/BasicRemote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/BasicRemote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Device.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Radio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Radio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Remote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Remote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Tv.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Tv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/BasicShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/BasicShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/CompoundShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/CompoundShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/HeadDepartment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/HeadDepartment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/SalesDepartment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/SalesDepartment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/TechDepartment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/TechDepartment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/DataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/DataSourceDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/DataSourceDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/DecryptionDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/DecryptionDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/EncryptionDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/EncryptionDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/FileDataResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/FileDataResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/Forest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/Forest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/TreeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/TreeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/TreeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/TreeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/designpatterns/structural/adapter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/adapter/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/designpatterns/structural/compositePartTwo/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/compositePartTwo/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/designpatterns/structural/decorator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/designpatterns/structural/decorator/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +102,15 @@
   <component name="ProjectId" id="1oPz8jbakFzXs3GsOCcW1RqGJaR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -56,11 +128,11 @@
   </component>
   <component name="RunManager" selected="Application.Client (1)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.behavioral.visitor.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.structural.flyweight.Client" />
       <module name="Design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.designpatterns.behavioral.visitor.*" />
+          <option name="PATTERN" value="com.company.designpatterns.structural.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,11 +141,11 @@
       </method>
     </configuration>
     <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.behavioral.observer.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.structural.compositePartTwo.Client" />
       <module name="Design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.designpatterns.behavioral.observer.*" />
+          <option name="PATTERN" value="com.company.designpatterns.structural.compositePartTwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,11 +154,24 @@
       </method>
     </configuration>
     <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.behavioral.template.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.structural.facade2.Client" />
       <module name="Design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.designpatterns.behavioral.template.*" />
+          <option name="PATTERN" value="com.company.designpatterns.structural.facade2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.structural.decorator.Client" />
+      <module name="Design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.designpatterns.structural.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,24 +180,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.behavioral.strategy.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.structural.facade.Client" />
       <module name="Design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.designpatterns.behavioral.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaxiService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.designpatterns.behavioral.state.TaxiService" />
-      <module name="Design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.designpatterns.behavioral.state.*" />
+          <option name="PATTERN" value="com.company.designpatterns.structural.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,7 +194,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Client (3)" />
-      <item itemvalue="Application.TaxiService" />
+      <item itemvalue="Application.Client (5)" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (4)" />
       <item itemvalue="Application.Client (1)" />
@@ -132,7 +204,7 @@
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.TaxiService" />
+        <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (3)" />
       </list>
     </recent_temporary>
@@ -149,6 +221,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -159,7 +232,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613202855161</updated>
-      <workItem from="1613202858605" duration="30012000" />
+      <workItem from="1613202858605" duration="33663000" />
+      <workItem from="1613411805599" duration="6000" />
+      <workItem from="1613430418767" duration="8000" />
+      <workItem from="1613821600100" duration="846000" />
     </task>
     <task id="LOCAL-00001" summary="Added creational and structural Patterns">
       <created>1613319920026</created>
@@ -168,82 +244,34 @@
       <option name="project" value="LOCAL" />
       <updated>1613319920026</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated creational pattern with Singleton implementations">
+      <created>1613324698346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613324698346</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added creational and structural Patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added creational and structural Patterns" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="598" y="367" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613205817839">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="598" y="367" key="#com.intellij.fileTypes.FileTypeChooser/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613205817839" />
-    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1613305217297">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="709" y="258" key="#com.intellij.ide.util.MemberChooser/0.-1055.1920.1055/-1080.-775.1080.1895/0.0.1792.1059@0.0.1792.1059" timestamp="1613212400481" />
-    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613305217297" />
-    <state x="485" y="159" key="CommitChangelistDialog2" timestamp="1613319919773">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="485" y="159" key="CommitChangelistDialog2/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319919773" />
-    <state width="1750" height="382" key="GridCell.Tab.0.bottom" timestamp="1613319873701">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="310" key="GridCell.Tab.0.bottom/0.-1055.1920.1055/-1080.-775.1080.1895/0.0.1792.1059@0.0.1792.1059" timestamp="1613213394345" />
-    <state width="1750" height="382" key="GridCell.Tab.0.bottom/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873701" />
-    <state width="1750" height="382" key="GridCell.Tab.0.center" timestamp="1613319873699">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="310" key="GridCell.Tab.0.center/0.-1055.1920.1055/-1080.-775.1080.1895/0.0.1792.1059@0.0.1792.1059" timestamp="1613213394343" />
-    <state width="1750" height="382" key="GridCell.Tab.0.center/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873699" />
-    <state width="1750" height="382" key="GridCell.Tab.0.left" timestamp="1613319873698">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="310" key="GridCell.Tab.0.left/0.-1055.1920.1055/-1080.-775.1080.1895/0.0.1792.1059@0.0.1792.1059" timestamp="1613213394341" />
-    <state width="1750" height="382" key="GridCell.Tab.0.left/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873698" />
-    <state width="1750" height="382" key="GridCell.Tab.0.right" timestamp="1613319873700">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="310" key="GridCell.Tab.0.right/0.-1055.1920.1055/-1080.-775.1080.1895/0.0.1792.1059@0.0.1792.1059" timestamp="1613213394344" />
-    <state width="1750" height="382" key="GridCell.Tab.0.right/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873700" />
-    <state width="1750" height="382" key="GridCell.Tab.1.bottom" timestamp="1613319873703">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="382" key="GridCell.Tab.1.bottom/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873703" />
-    <state width="1750" height="382" key="GridCell.Tab.1.center" timestamp="1613319873702">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="382" key="GridCell.Tab.1.center/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873702" />
-    <state width="1750" height="382" key="GridCell.Tab.1.left" timestamp="1613319873702">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="382" key="GridCell.Tab.1.left/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873702" />
-    <state width="1750" height="382" key="GridCell.Tab.1.right" timestamp="1613319873703">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="382" key="GridCell.Tab.1.right/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319873703" />
-    <state x="690" y="275" key="RollbackChangesDialog" timestamp="1613295101577">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="690" y="275" key="RollbackChangesDialog/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613295101577" />
-    <state x="405" y="196" key="SettingsEditor" timestamp="1613206117830">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="405" y="196" key="SettingsEditor/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613206117830" />
-    <state x="496" y="297" key="Vcs.Push.Dialog.v2" timestamp="1613319922288">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="496" y="297" key="Vcs.Push.Dialog.v2/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613319922288" />
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1613301091608">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.-1080.1920.1080/-1080.-800.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1613301091608" />
+    <MESSAGE value="updated creational pattern with Singleton implementations" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated creational pattern with Singleton implementations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
