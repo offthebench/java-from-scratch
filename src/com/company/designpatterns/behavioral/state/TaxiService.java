@@ -4,8 +4,9 @@ public class TaxiService {
 
     public static void main(String[] args) {
         F16 f16 = new F16();
-        System.out.println(f16.getLandingState());
+        System.out.println(f16.state.toString());
         f16.land();
+        System.out.println(f16.getLandingState().toString());
     }
 
     public void pilotTaxis(String currentState) {
@@ -20,6 +21,5 @@ public class TaxiService {
         } else if (currentState == "Taxi") {
             System.out.println("Pane is already taxing.");
         }
-
     }
 }

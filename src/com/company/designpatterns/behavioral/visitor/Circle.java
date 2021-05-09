@@ -16,9 +16,4 @@ public class Circle implements Shape {
     public void paint() {
         System.out.printf("painting...");
     }
-
-    @Override
-    public void accept(Visitor visitor) {
-        visitor.visitCircle(this);
-    }
 }

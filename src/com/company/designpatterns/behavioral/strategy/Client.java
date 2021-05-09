@@ -8,8 +8,8 @@ public class Client {
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = i;
         }
-        MergeSort mergeSort = new MergeSort();
-        Context context = new Context(mergeSort);
+        BubbleSort bubbleSort = new BubbleSort();
+        Context context = new Context(bubbleSort);
         context.sort(numbers);
     }
 }

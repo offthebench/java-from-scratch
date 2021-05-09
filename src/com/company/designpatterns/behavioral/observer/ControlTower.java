@@ -14,7 +14,7 @@ public class ControlTower implements Subject {
 
     @Override
     public void removeObserver(Observer observer) {
-
+        observers.remove(observer);
     }
 
     @Override

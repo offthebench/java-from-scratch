@@ -14,5 +14,6 @@ public class Client {
 
         instrumentPanel.lowerLandingGear();
         instrumentPanel.retractLandingGear();
+        instrumentPanel.lowerLandingGear();
     }
 }

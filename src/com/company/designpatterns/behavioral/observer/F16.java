@@ -15,6 +15,7 @@ public class F16 implements Observer, Aircraft {
 
     @Override
     public void land() {
+        System.out.println("F16 removed observer.");
         observable.removeObserver(this);
     }
 

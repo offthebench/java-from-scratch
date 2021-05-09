@@ -10,7 +10,7 @@ public class Boing implements Aircraft {
 
     @Override
     public void land() {
-        System.out.println("Boing is landing");
+        System.out.println("Boeing is landing");
     }
 
     public void requestControlTower() {
