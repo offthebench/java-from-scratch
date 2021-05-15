@@ -14,7 +14,6 @@ public abstract class Shape {
                 + " x = " + x + " and y = " + y);
     }
 
-
     abstract public double area();
     abstract public void draw();
 }

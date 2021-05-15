@@ -2,193 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3d8ca75-8cec-4200-9427-c2fd55afd539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-from-scratch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/abstraction/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/abstraction/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/composition/BreedType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/composition/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/composition/LengthUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/composition/Muzzle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/abstraction/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/encapsulation/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/encapsulation/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/encapsulation/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/encapsulation/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/encapsulation/q1/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/encapsulation/q1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/encapsulation/q1/Pocket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/inheritance/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/inheritance/ClassA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/inheritance/ClassB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/inheritance/ClassC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/inheritance/Family.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/inheritance/q1/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/inheritance/q1/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/inheritance/q1/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/inheritance/vehicle/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/inheritance/vehicle/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/inheritance/vehicle/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/polymorphism/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/polymorphism/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/polymorphism/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/polymorphism/ShapeUp/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/advanced/polymorphism/ShapeUp/ShapeX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/chainofresponsibility/AbstractHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/chainofresponsibility/AbstractRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/chainofresponsibility/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/chainofresponsibility/FireDetectorRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/chainofresponsibility/FireHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/chainofresponsibility/LowFuelDetectorRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/chainofresponsibility/LowFuelHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/chainofresponsibility/LowFuelRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/command/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/command/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/command/InstrumentPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/command/LandingGear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/command/LandingGearDownCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/command/LandingGearUpCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/interprator/BarellRoll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/interprator/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/interprator/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/interprator/Flight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/interprator/Glide.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/interprator/Program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/interprator/ShowOff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/interprator/Splits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/iterator/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/iterator/Iterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/iterator/Profile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/iterator/ProfileData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/iterator/ProfileIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/mediator/Aircraft.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/mediator/Boing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/mediator/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/mediator/ControlTower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/memento/BlackBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/memento/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/memento/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/observer/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/observer/ControlTower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/observer/F16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/observer/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/observer/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/state/F16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/state/LandingState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/state/ParkedState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/state/PilotActions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/state/TaxiService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/strategy/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/strategy/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/strategy/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/strategy/ISort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/strategy/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/template/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/template/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/template/DefaultSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/template/ISort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/template/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/visitor/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/visitor/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/visitor/ExportVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/visitor/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/behavioral/visitor/Visitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/CheckBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/GUIFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/MacOSFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/MacOsButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/MacOsCheckBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/WindowsButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/WindowsCheckBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/abstractfactory/WindowsFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/CarBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/CarManual.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/CarManualBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/CarType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/Director.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/builder/Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/Dialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/HtmlButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/HtmlDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/MacButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/MacDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/WindowDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/WindowRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/factory/WindowsButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/prototype/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/prototype/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/prototype/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/prototype/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/singleton/EagerInitializedSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/singleton/LazyInitializationSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/singleton/StaticBlockSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/creational/singleton/ThreadSafeSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/RoundHole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/RoundPeg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/SquarePeg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/adapter/SquarePegAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/AdvancedRemote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/BasicRemote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Device.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Radio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Remote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/bridge/Tv.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/BasicShape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/CompoundShape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/composite/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/HeadDepartment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/SalesDepartment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/compositePartTwo/TechDepartment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/DataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/DataSourceDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/DecryptionDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/EncryptionDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/decorator/FileDataResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/facade/AVICompressionCodec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/facade/AudioMixer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/facade/BitrateReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/facade/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/facade/Codec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/facade/CodecFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/facade/MPEG4CompressionCodec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/facade/VideoConversionFacade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/facade/VideoFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/facade2/CapitalizeName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/facade2/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/facade2/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/facade2/UserNameFacade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/Forest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/TreeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/flyweight/TreeType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/proxy/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/proxy/ThirdPartyVideoLib.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/proxy/Video.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/proxy/YoutubeCacheProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/proxy/YoutubeDownloader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design-patterns/com/company/designpatterns/structural/proxy/YoutubeLibrary.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621054727467</updated>
-      <workItem from="1621054729228" duration="3243000" />
+      <workItem from="1621054729228" duration="3935000" />
     </task>
     <servers />
   </component>
@@ -300,25 +115,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="709" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1621062098941">
+    <state x="709" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1621063261210">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="709" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1621062098941" />
-    <state width="1750" height="437" key="GridCell.Tab.0.bottom" timestamp="1621062391916">
+    <state x="709" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1621063261210" />
+    <state width="1750" height="437" key="GridCell.Tab.0.bottom" timestamp="1621062464125">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="437" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1621062391916" />
-    <state width="1750" height="437" key="GridCell.Tab.0.center" timestamp="1621062391915">
+    <state width="1750" height="437" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1621062464125" />
+    <state width="1750" height="437" key="GridCell.Tab.0.center" timestamp="1621062464124">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="437" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1621062391915" />
-    <state width="1750" height="437" key="GridCell.Tab.0.left" timestamp="1621062391914">
+    <state width="1750" height="437" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1621062464124" />
+    <state width="1750" height="437" key="GridCell.Tab.0.left" timestamp="1621062464124">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="437" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1621062391914" />
-    <state width="1750" height="437" key="GridCell.Tab.0.right" timestamp="1621062391915">
+    <state width="1750" height="437" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1621062464124" />
+    <state width="1750" height="437" key="GridCell.Tab.0.right" timestamp="1621062464125">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="437" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1621062391915" />
+    <state width="1750" height="437" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1621062464125" />
   </component>
 </project>
