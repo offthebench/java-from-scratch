@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3d8ca75-8cec-4200-9427-c2fd55afd539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/exception/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/exception/CompareNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/exception/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/exception/Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/exception/OneException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/io/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/io/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-from-scratch/com/company/advanced/abstraction/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-from-scratch/com/company/advanced/abstraction/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-from-scratch/META-INF/java-from-scratch.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/advanced/io/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/advanced/io/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +30,6 @@
   </component>
   <component name="ProjectId" id="1sYg2BBTVX1sRzsmrCmwh3cHdOi" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -139,6 +133,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -156,38 +151,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="709" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1621077808541">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="709" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1621077808541" />
-    <state width="1750" height="341" key="GridCell.Tab.0.bottom" timestamp="1621077838894">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="341" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1621077838894" />
-    <state width="1750" height="341" key="GridCell.Tab.0.center" timestamp="1621077838893">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="341" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1621077838893" />
-    <state width="1750" height="341" key="GridCell.Tab.0.left" timestamp="1621077838892">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="341" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1621077838892" />
-    <state width="1750" height="341" key="GridCell.Tab.0.right" timestamp="1621077838893">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="341" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1621077838893" />
-    <state x="634" y="317" key="extract.method.dialog" timestamp="1621069740342">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="634" y="317" key="extract.method.dialog/0.0.1792.1120@0.0.1792.1120" timestamp="1621069740342" />
-    <state x="559" y="317" width="714" height="486" key="find.popup" timestamp="1621077012767">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="559" y="317" width="714" height="486" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1621077012767" />
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1621076723383">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1621076723383" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
