@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3d8ca75-8cec-4200-9427-c2fd55afd539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/exception/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/exception/CompareNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/exception/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/exception/Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/exception/OneException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/io/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/io/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/abstraction/BookQuestion/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/abstraction/BookQuestion/BookApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/abstraction/BookQuestion/MyBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/Demonstration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/HelloWorld/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/HelloWorld/HelloWorldRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/HelloWorld/HelloWorldThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/Manager/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/Manager/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/SumUpExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/ThreadUnsafe/DemoThreadUnsafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/ThreadUnsafe/ThreadUnsafeCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/lambdas/AddInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/lambdas/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/lambdas/Maths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-from-scratch/com/company/advanced/abstraction/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-from-scratch/com/company/advanced/abstraction/Rectangle.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +59,13 @@
       <recent name="$PROJECT_DIR$/src/com/company/advanced/interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.BookApplication">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.advanced.io.Application" />
+      <option name="MAIN_CLASS_NAME" value="com.company.advanced.lambdas.Application" />
       <module name="java-from-scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.advanced.io.*" />
+          <option name="PATTERN" value="com.company.advanced.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompareNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.advanced.exception.CompareNumber" />
+    <configuration name="BookApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.advanced.abstraction.BookQuestion.BookApplication" />
       <module name="java-from-scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.advanced.exception.*" />
+          <option name="PATTERN" value="com.company.advanced.abstraction.BookQuestion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.advanced.exception.Numbers" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.advanced.concurrency.HelloWorld.HelloWorld" />
       <module name="java-from-scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.advanced.exception.*" />
+          <option name="PATTERN" value="com.company.advanced.concurrency.HelloWorld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.advanced.abstraction.Rectangle" />
+    <configuration name="HelloWorldThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.advanced.concurrency.HelloWorld.HelloWorldThread" />
       <module name="java-from-scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.advanced.abstraction.*" />
+          <option name="PATTERN" value="com.company.advanced.concurrency.HelloWorld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAbstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.advanced.abstraction.TestAbstraction" />
+    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.advanced.concurrency.Manager.Manager" />
       <module name="java-from-scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.advanced.abstraction.*" />
+          <option name="PATTERN" value="com.company.advanced.concurrency.Manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookApplication" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.CompareNumber" />
-        <item itemvalue="Application.Numbers" />
-        <item itemvalue="Application.Rectangle" />
-        <item itemvalue="Application.TestAbstraction" />
+        <item itemvalue="Application.Manager" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.HelloWorldThread" />
       </list>
     </recent_temporary>
   </component>
@@ -157,26 +165,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="709" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1621077808541">
+    <state x="709" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1621163835242">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="709" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1621077808541" />
-    <state width="1750" height="341" key="GridCell.Tab.0.bottom" timestamp="1621077838894">
+    <state x="709" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1621163835242" />
+    <state x="529" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1621157779941">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="341" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1621077838894" />
-    <state width="1750" height="341" key="GridCell.Tab.0.center" timestamp="1621077838893">
+    <state x="529" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1621157779941" />
+    <state x="659" y="267" key="#xdebugger.evaluate" timestamp="1621156938630">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="341" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1621077838893" />
-    <state width="1750" height="341" key="GridCell.Tab.0.left" timestamp="1621077838892">
+    <state x="659" y="267" key="#xdebugger.evaluate/0.0.1792.1120@0.0.1792.1120" timestamp="1621156938630" />
+    <state width="1750" height="387" key="GridCell.Tab.0.bottom" timestamp="1621164103881">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="341" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1621077838892" />
-    <state width="1750" height="341" key="GridCell.Tab.0.right" timestamp="1621077838893">
+    <state width="1750" height="387" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1621164103881" />
+    <state width="1750" height="387" key="GridCell.Tab.0.center" timestamp="1621164103880">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="341" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1621077838893" />
+    <state width="1750" height="387" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1621164103880" />
+    <state width="1750" height="387" key="GridCell.Tab.0.left" timestamp="1621164103879">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="387" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1621164103879" />
+    <state width="1750" height="387" key="GridCell.Tab.0.right" timestamp="1621164103880">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="387" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1621164103880" />
+    <state width="1750" height="382" key="GridCell.Tab.1.bottom" timestamp="1621157027105">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="382" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1621157027105" />
+    <state width="1750" height="382" key="GridCell.Tab.1.center" timestamp="1621157027104">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="382" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1621157027104" />
+    <state width="1750" height="382" key="GridCell.Tab.1.left" timestamp="1621157027103">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="382" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1621157027103" />
+    <state width="1750" height="382" key="GridCell.Tab.1.right" timestamp="1621157027105">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="382" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1621157027105" />
     <state x="634" y="317" key="extract.method.dialog" timestamp="1621069740342">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -185,9 +217,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="559" y="317" width="714" height="486" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1621077012767" />
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1621076723383">
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1621161898233">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1621076723383" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1621161898233" />
   </component>
 </project>
