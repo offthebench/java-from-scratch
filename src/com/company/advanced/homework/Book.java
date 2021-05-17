@@ -3,9 +3,9 @@ package com.company.advanced.homework;
 public abstract class Book {
     protected String name;
     protected String author;
-    protected int price;
+    protected double price;
 
-    public Book(String name, String author, int price) {
+    public Book(String name, String author, double price) {
         this.name = name;
         this.author = author;
         this.price = price;
