@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3d8ca75-8cec-4200-9427-c2fd55afd539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/abstraction/BookQuestion/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/abstraction/BookQuestion/BookApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/abstraction/BookQuestion/MyBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/Demonstration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/HelloWorld/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/HelloWorld/HelloWorldRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/HelloWorld/HelloWorldThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/Manager/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/Manager/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/SumUpExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/ThreadUnsafe/DemoThreadUnsafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/concurrency/ThreadUnsafe/ThreadUnsafeCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/lambdas/AddInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/lambdas/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/lambdas/Maths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/recursion/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/recursion/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/advanced/recursion/StringReverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,20 +47,7 @@
       <recent name="$PROJECT_DIR$/src/com/company/advanced/interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookApplication">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.advanced.lambdas.Application" />
-      <module name="java-from-scratch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.advanced.lambdas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringReverse">
     <configuration name="BookApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.advanced.abstraction.BookQuestion.BookApplication" />
       <module name="java-from-scratch" />
@@ -86,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.advanced.concurrency.HelloWorld.HelloWorld" />
+    <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.advanced.recursion.Counter" />
       <module name="java-from-scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.advanced.concurrency.HelloWorld.*" />
+          <option name="PATTERN" value="com.company.advanced.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.advanced.concurrency.HelloWorld.HelloWorldThread" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.advanced.recursion.Factorial" />
       <module name="java-from-scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.advanced.concurrency.HelloWorld.*" />
+          <option name="PATTERN" value="com.company.advanced.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,26 +87,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.advanced.concurrency.Manager.Manager" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.advanced.recursion.Fibonacci" />
       <module name="java-from-scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.advanced.concurrency.Manager.*" />
+          <option name="PATTERN" value="com.company.advanced.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.advanced.recursion.StringReverse" />
+      <module name="java-from-scratch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.advanced.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringReverse" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.Counter" />
         <item itemvalue="Application.BookApplication" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.Manager" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.HelloWorldThread" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621054727467</updated>
       <workItem from="1621054729228" duration="9712000" />
+      <workItem from="1622278021336" duration="4097000" />
     </task>
     <servers />
   </component>
@@ -177,38 +189,38 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="659" y="267" key="#xdebugger.evaluate/0.0.1792.1120@0.0.1792.1120" timestamp="1621156938630" />
-    <state width="1750" height="387" key="GridCell.Tab.0.bottom" timestamp="1621164103881">
+    <state width="1750" height="338" key="GridCell.Tab.0.bottom" timestamp="1622285171206">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="387" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1621164103881" />
-    <state width="1750" height="387" key="GridCell.Tab.0.center" timestamp="1621164103880">
+    <state width="1750" height="338" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1622285171206" />
+    <state width="1750" height="338" key="GridCell.Tab.0.center" timestamp="1622285171203">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="387" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1621164103880" />
-    <state width="1750" height="387" key="GridCell.Tab.0.left" timestamp="1621164103879">
+    <state width="1750" height="338" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1622285171203" />
+    <state width="1750" height="338" key="GridCell.Tab.0.left" timestamp="1622285171202">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="387" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1621164103879" />
-    <state width="1750" height="387" key="GridCell.Tab.0.right" timestamp="1621164103880">
+    <state width="1750" height="338" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1622285171202" />
+    <state width="1750" height="338" key="GridCell.Tab.0.right" timestamp="1622285171205">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="387" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1621164103880" />
-    <state width="1750" height="382" key="GridCell.Tab.1.bottom" timestamp="1621157027105">
+    <state width="1750" height="338" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1622285171205" />
+    <state width="1750" height="382" key="GridCell.Tab.1.bottom" timestamp="1621172203263">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="382" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1621157027105" />
-    <state width="1750" height="382" key="GridCell.Tab.1.center" timestamp="1621157027104">
+    <state width="1750" height="382" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1621172203263" />
+    <state width="1750" height="382" key="GridCell.Tab.1.center" timestamp="1621172203262">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="382" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1621157027104" />
-    <state width="1750" height="382" key="GridCell.Tab.1.left" timestamp="1621157027103">
+    <state width="1750" height="382" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1621172203262" />
+    <state width="1750" height="382" key="GridCell.Tab.1.left" timestamp="1621172203262">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="382" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1621157027103" />
-    <state width="1750" height="382" key="GridCell.Tab.1.right" timestamp="1621157027105">
+    <state width="1750" height="382" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1621172203262" />
+    <state width="1750" height="382" key="GridCell.Tab.1.right" timestamp="1621172203262">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="382" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1621157027105" />
+    <state width="1750" height="382" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1621172203262" />
     <state x="634" y="317" key="extract.method.dialog" timestamp="1621069740342">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
