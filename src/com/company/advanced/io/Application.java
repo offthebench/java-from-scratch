@@ -1,17 +1,16 @@
 package com.company.advanced.io;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class Application {
 
     public static void main(String[] args) {
-        Person person = new Person("Akshay", "Saxena");
         File file = new File("test.txt");
-        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file))){
-            bufferedWriter.write(person.toString());
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))){
+            String fileLine;
+            while ((fileLine = bufferedReader.readLine()) !=null) {
+                System.out.println(fileLine);
+            }
         } catch (IOException io) {
             System.out.println("IO exception occurred");
         }
